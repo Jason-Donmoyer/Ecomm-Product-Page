@@ -74,6 +74,7 @@ body {
 
 /* Main Container */
 .main-container {
+  /* height: 56.25rem; */
   background-color: var(--white);
 }
 
@@ -141,4 +142,50 @@ body {
   background-image: url(../images/image-avatar.png);
   background-position: center;
   background-size: contain;
+}
+
+
+/* Lightbox Container */
+.lightbox-container {
+  width: 100vw;
+  height: 18.75rem;
+  background-image: url(../images/image-product-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* Previous Icon Container */
+/* .previous-icon-container {
+  width: 2.5rem; 
+  height: 2.5rem;
+  
+} */
+
+
+/* Arrow Icons */
+.arrow-icon {
+  width: 2.5rem; 
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: var(--white);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Previous Icon */
+.previous-icon {
+  margin-left: 1rem;
+  background-image: url(../images/icon-previous.svg);
+}
+
+
+/* Next Icon */
+.next-icon {
+  margin-right: 1rem;
+  background-image: url(../images/icon-next.svg);
 }
