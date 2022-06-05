@@ -69,6 +69,7 @@ html {
 /* body */
 body {
   font-family: var(--main-font-family);
+  font-weight: var(--fw-regular);
 }
 
 
@@ -159,14 +160,6 @@ body {
 }
 
 
-/* Previous Icon Container */
-/* .previous-icon-container {
-  width: 2.5rem; 
-  height: 2.5rem;
-  
-} */
-
-
 /* Arrow Icons */
 .arrow-icon {
   width: 2.5rem; 
@@ -176,6 +169,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 
 /* Previous Icon */
 .previous-icon {
@@ -188,4 +182,43 @@ body {
 .next-icon {
   margin-right: 1rem;
   background-image: url(../images/icon-next.svg);
+}
+
+
+/* Main INfo Container */
+.main-info-container {
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+
+/* Company Name Copy */
+.company-name-copy {
+  font-size: 0.75rem;
+  font-weight: var(--fw-bold);
+  line-height: 0.9375rem;
+  letter-spacing: 0.115384rem;
+  text-transform: uppercase;
+  color: var(--main-highlight-color);
+}
+
+
+/* h1 Main Headline */
+.main-headline {
+  font-size: 1.75rem;
+  font-weight: var(--fw-bold);
+  line-height: 2rem;
+  color: var(--very-dark-blue);
+  margin-top: 1.1875rem;
+}
+
+
+/* Main Info Copy */
+.main-info-copy {
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+  color: var(--dark-grayish-blue);
+  margin-top: 0.9375rem;
+  margin-bottom: 1.5rem;
 }
