@@ -287,6 +287,78 @@ body {
   border-radius: 0.625rem;
   background-color: var(--light-grayish-blue);
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+}
+
+
+/* Quantity Icons */
+.quantity-icon {
+  width: 0.75rem;
+  height: 0.75rem;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* Minus Icon */
+.minus-icon {
+  margin-left: 1.5rem;
+  background-image: url(../images/icon-minus.svg);
+}
+
+
+/* Plus Icon */
+.plus-icon {
+  margin-right: 1.5rem;
+  background-image: url(../images/icon-plus.svg);
+}
+
+
+/* Total Quantity Copy */
+.total-quantity-copy {
+  font-weight: var(--fw-bold);
+  line-height: 1.25rem;
+  color: var(--very-dark-blue);
+}
+
+
+/* Add to Cart Button */
+.add-to-cart-btn {
+  height: 3.5rem;
+  margin-bottom: 5.5rem;
+  border-radius: 0.625rem;
+  background-color: var(--main-highlight-color);
+  color: var(--white);
+  box-shadow: 0px 20px 50px -20px var(--main-highlight-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Add to Cart Button Copy Container */
+.add-to-cart-btn-copy-container {
+  width: 7.4375rem;
+  height: 1.1875rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* Button Cart Icon */
+.btn-cart-icon {
+  width: 1.09125rem;
+  height: 1rem;
+  background-image: url(../images/icon-cart-btn.svg);
+  background-size: contain;
+  background-position: center;
+}
+
+
+/* Add to Cart Button Copy */
+.add-to-cart-btn-copy {
+  font-weight: var(--fw-bold);
+  line-height: 1.25rem;
 }
